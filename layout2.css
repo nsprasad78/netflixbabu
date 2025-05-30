@@ -1,0 +1,28 @@
+.six {
+    width: 100%;
+    height: 400px;
+    background-color: darkkhaki;
+    padding: 70px 250px;
+    box-sizing: border-box;
+}
+.six1 {
+    width: 800px;
+    height: 250px;
+    background-color: white;
+    display: flex;              
+    align-items: center;        
+    gap: 20px;                  
+    box-sizing: border-box;
+}
+.six1 img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.sixtext {
+    text-align: start;
+    color: black;
+}
+.sixtext h1 {
+    margin: 10px;
+}
