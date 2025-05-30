@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+
+}
+body{
+    margin: 0%;
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    clear: both;
+    padding: 50px;
+}
+.header1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.header1 img{
+    width: 200px;
+    text-align: center;    
+}
+nav{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    
+}
+nav button,nav select{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.header2{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+.header2 h1{
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.header2 p{
+    font-size: 1.2em;
+    font-weight: 100; 
+    
+}
+.header2 input{
+    width: 500px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid red;
+}
+.header2 button{
+    width: 180px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.andone{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.one h1{
+    text-align: center;
+    color: red;
+    padding: 50px;
+   
+}
+.one0{
+    display: flex;
+    gap: 20px;
+    padding: 50px 200px;
+}
+.one1,.one2,.one3,.one4{
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.one1 img,.one2 img,.one3 img,.one4 img{
+    width: 220px;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid red;
+}
+.one1 img:hover{
+    transform: scale(1.05);
+}
+.one2 img:hover{
+    transform: scale(1.05);
+}
+.one3 img:hover{
+    transform: scale(1.05);
+}
+.one4 img:hover{
+    transform: scale(1.05);
+}
+
+.reasons{
+    width: 80%; 
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    display: table;
+    clear: both;
+}
+.reason{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+figure{
+    border: 2px solid red;
+    margin: 0%;
+    padding: 20px;
+    text-align: start;
+}
+figure:hover{
+    transform: scale(1.05);
+}
+.faq{
+    width: 80%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.questions{
+    padding: 10px;
+    background-color: red;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 20px;
+    text-align: start;
+}
+footer{
+    width: 100%;
+    margin: auto;
+    color: red;
+    border-top: 2px solid red;
+    height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
